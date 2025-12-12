@@ -237,4 +237,3 @@ echo "e elevato alla 1: " . exp(1);
 echo "<br>";
 
 echo "<br><hr><br>";
-?>

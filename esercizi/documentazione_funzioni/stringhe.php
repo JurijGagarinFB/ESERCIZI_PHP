@@ -260,4 +260,3 @@ echo stripslashes($escapata);
 echo "<br>";
 
 echo "<br><hr><br>";
-?>
