@@ -21,7 +21,7 @@ foreach ($items as $item) {
 echo "<br>";
 echo "<br>";
 
-#write, sovrascrive comopletamente il contenuto del file
+#write, sovrascrive completamente il contenuto del file
 $file = fopen("testo.txt", "w");
 fwrite($file, "ciao");
 fclose($file);

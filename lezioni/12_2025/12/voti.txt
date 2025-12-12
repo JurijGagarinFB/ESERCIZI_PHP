@@ -1,0 +1,6 @@
+studente1--nome1--cognome1--8
+studente2--nome2--cognome2--7
+studente3--nome3--cognome3--1
+studente4--nome4--cognome4--2
+studente5--nome5--cognome5--9
+studente6--nome6--cognome6--6
