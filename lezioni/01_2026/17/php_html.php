@@ -85,5 +85,6 @@ $studenti = [
 <script>messaggio = <?= json_encode($messaggio) ?></script>
 <script src=script.js></script>
 
+<footer id="footer"> questo è un footer </footer>
 </body>
 </html>
