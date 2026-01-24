@@ -90,39 +90,11 @@
     <br>
     <br>
 
-    <label for="lingua">Lingua</label>
-    <select name="lingua[]" multiple>
-        <option value="Inglese">Inglese</option>
-        <option value="Francese">Francese</option>
-        <option value="Esperanto">Esperanto</option>
-        <option value="Italiano">Italiano</option>
-        <option value="Giapponese">Giapponese</option>
-        <option value="Spagnolo">Spagnolo</option>
-        <option value="Tedesco">Tedesco</option>
-        <option value="Cinese">Cinese</option>
-        <option value="Russo">Russo</option>
-        <option value="Portoghese">Portoghese</option>
-        <option value="Arabo">Arabo</option>
-        <option value="Hindi">Hindi</option>
-        <option value="Japonese">Japonese</option>
-        <option value="Coreano">Coreano</option>
-        <option value="Polacco">Polacco</option>
-        <option value="Croato">Croato</option>
-        <option value="Slovacco">Slovacco</option>
-        <option value="Sloveno">Sloveno</option>
-        <option value="Ucraino">Ucraino</option>
-        <option value="Bielorussia">Bielorussia</option>
-        <option value="Romeno">Romeno</option>
-        <option value="Albanese">Albanese</option>
-        <option value="Cazaco">Cazaco</option>
-        <option value="Macedone">Macedone</option>
-        <option value="Serbo">Serbo</option>
+    <label for="professore">Professori</label>
+    <select name="professore" multiple>
+
     </select>
     <br>
-    <br>
-
-    <label for="messaggio">Messaggio</label>
-    <label for="message"></label><textarea name="messaggio" id="message" cols="30" rows="10"></textarea>
     <br>
 
     <input type="submit" value="Invia">

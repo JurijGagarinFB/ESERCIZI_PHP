@@ -36,9 +36,14 @@ $messaggio = $_POST["messaggio"] ?? " ";
 <p>Email: <?php echo $email; ?></p>
 <p>Età: <?php echo $eta; ?></p>
 <p>Sesso: <?php echo $sesso; ?></p>
-<p>Corso: <?php echo $corso; ?></p>
+<p>Corso:</p>
+<?php foreach ($corso as $corso_selezionato) { ?>
+    <p><?php echo $corso_selezionato; ?></p>
+<?php } ?>
 <p>Citta: <?php echo $citta; ?></p>
-<p>Lingua: <?php echo $lingua; ?></p>
+<?php foreach ($lingua as $lingua_selezionata) { ?>
+    <p><?php echo $lingua_selezionata; ?></p>
+<?php } ?>
 <p>Messaggio: <?php echo $messaggio; ?></p>
 </body>
 </html>
