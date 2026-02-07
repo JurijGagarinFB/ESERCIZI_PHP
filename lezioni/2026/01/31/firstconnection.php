@@ -1,5 +1,9 @@
 <?php
 
+$dbconfig = require "config/DBconfig.php";
+
+$db = new PDO($dbconfig["dsn"], $dbconfig["username"], $dbconfig["password"], $dbconfig["options"]);
+/*
 $db = new PDO(
     "mysql:host=192.168.60.144;dbname=francesco_bazaj_itis;charset=utf8mb4",
     "francesco_bazaj",
@@ -9,6 +13,7 @@ $db = new PDO(
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     ]
 );
+*/
 
 /*
 
@@ -31,8 +36,9 @@ try {
 
 */
 
-/*
-//READ
+
+//READ -------------------------------------------------
+
 $query = "SELECT media, cognome FROM studenti WHERE nome = :name";
 try {
     $stmt = $db->prepare($query);
@@ -48,9 +54,10 @@ try {
 } catch (PDOException $e) {
     echo "Errore nella query. Contattare l'amministratore. Questo messaggio viene visualizzato all'utente.";
 }
-*/
 
-//CREATE
+
+//CREATE -------------------------------------------------
+/*
 $query = "INSERT INTO studenti (nome, cognome, media, data_iscrizione) VALUES (:name, :surname, :media, NOW())";
 
 try{
@@ -63,3 +70,44 @@ try{
 } catch (PDOException $e) {
     echo "Errore nella query. Contattare l'amministratore. Questo messaggio viene visualizzato all'utente.";
 }
+*/
+
+//UPDATE -------------------------------------------------
+/*
+$query = 'UPDATE studenti
+SET media = :media
+WHERE nome = :name';
+
+try {
+    $stmt = $db->prepare($query);
+    $stmt->bindValue(':name', 'Antonio', PDO::PARAM_STR);
+    $stmt->bindValue(':media', 10, PDO::PARAM_INT);
+    $stmt->execute();
+
+    if ($stmt->rowCount() === 0) {
+        echo "No rows were updated.";
+    } else {
+        echo "Update successful.";
+    }
+    echo '<br>';
+    $stmt->closeCursor();
+} catch (PDOException $e) {
+    echo "A database error occurred. Please try again later.";
+    echo '<br>';
+    echo $e;
+    echo '<br>';
+}
+*/
+
+//DELETE -------------------------------------------------
+/*
+$query = "DELETE FROM studenti WHERE nome = :name";
+try {
+    $stmt = $db->prepare($query);
+    $stmt->bindValue(":name", "Antonio", PDO::PARAM_STR);
+    $stmt->execute();
+    echo "Delete successful.";
+} catch (PDOException $e) {
+    echo "A database error occurred. Please try again later.";
+}
+*/
