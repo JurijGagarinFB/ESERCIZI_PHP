@@ -1,8 +1,12 @@
 <?php
+require "/home/Francesco_Bazaj/Documenti/ESERCIZI_PHP/config/DBConn.php";
+$dbconfig = require "/home/Francesco_Bazaj/Documenti/ESERCIZI_PHP/config/DBconfig.php";
 
-$dbconfig = require "config/DBconfig.php";
+$db = DBConn::getDB($dbconfig);
 
-$db = new PDO($dbconfig["dsn"], $dbconfig["username"], $dbconfig["password"], $dbconfig["options"]);
+if ($db == null){
+    exit("Errore nella connessione al database");
+}
 /*
 $db = new PDO(
     "mysql:host=192.168.60.144;dbname=francesco_bazaj_itis;charset=utf8mb4",

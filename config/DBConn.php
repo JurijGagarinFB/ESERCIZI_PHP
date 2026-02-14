@@ -2,11 +2,17 @@
 
 class DBConn
 {
-    private static PDO $db;
+    private static ?PDO $db = null;
 
     public static function getDB(array $config): PDO
     {
-        self :: $db = new PDO($config["dsn"], $config["username"], $config["password"], $config["options"]);
-        return self :: $db;
+        if (!isset(self::$db)) {
+            try {
+                self::$db = new PDO($config["dsn"], $config["username"], $config["password"], $config["options"]);
+            } catch (PDOException $e) {
+                self::$db = null;
+            }
+        }
+        return self::$db;
     }
 }
