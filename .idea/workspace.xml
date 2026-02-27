@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd6f7a5f-3988-4715-a596-f8a3e504548d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ProgettoTemplate/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgettoTemplate/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgettoTemplate/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgettoTemplate/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgettoTemplate/Configuration/esempio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgettoTemplate/Functons/esempio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgettoTemplate/Public/CSS/esempio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgettoTemplate/Public/JavaScript/esempio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgettoTemplate/Public/Resources/Files/esempio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgettoTemplate/Public/Resources/Images/esempio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgettoTemplate/Public/Resources/Videos/esempio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgettoTemplate/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgettoTemplate/layout.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/02/27/diff_GET_POST.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/02/27/esito.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/02/27/superglobal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +21,7 @@
     <execution />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="50" />
+    <option name="cachedIndexableFilesCount" value="81" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -66,7 +58,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/Francesco_Bazaj/Documenti/ESERCIZI_PHP/ProgettoTemplate",
+    "last_opened_file_path": "/home/Francesco_Bazaj/Documenti/ESERCIZI_PHP",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +67,11 @@
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -110,6 +107,9 @@
       <workItem from="1771585391702" duration="900000" />
       <workItem from="1771586837158" duration="3109000" />
       <workItem from="1771667870566" duration="1008000" />
+      <workItem from="1771669658377" duration="5000" />
+      <workItem from="1772012723468" duration="2000" />
+      <workItem from="1772189768196" duration="5312000" />
     </task>
     <servers />
   </component>
