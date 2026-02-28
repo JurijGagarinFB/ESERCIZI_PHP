@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd6f7a5f-3988-4715-a596-f8a3e504548d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lezioni/2026/02/27/diff_GET_POST.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lezioni/2026/02/27/esito.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lezioni/2026/02/27/superglobal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/Configuration/DBConn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/Configuration/DBconfig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/Functons/esempio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/Public/CSS/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/Public/JavaScript/esempio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/Public/Layout/layout.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/Public/Resources/Files/esempio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/Public/Resources/Images/esempio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/Public/Resources/Videos/esempio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +30,7 @@
     <execution />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="81" />
+    <option name="cachedIndexableFilesCount" value="89" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -58,7 +67,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/Francesco_Bazaj/Documenti/ESERCIZI_PHP",
+    "last_opened_file_path": "/home/Francesco_Bazaj/Documenti/ESERCIZI_PHP/ProgettoCampionatoAutomobilitstico/Configuration",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +85,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/Configuration" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -110,6 +120,8 @@
       <workItem from="1771669658377" duration="5000" />
       <workItem from="1772012723468" duration="2000" />
       <workItem from="1772189768196" duration="5312000" />
+      <workItem from="1772268184240" duration="23000" />
+      <workItem from="1772268228685" duration="3104000" />
     </task>
     <servers />
   </component>
