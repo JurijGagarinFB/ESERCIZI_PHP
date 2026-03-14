@@ -1,5 +1,5 @@
 <?php
-$message = $_GET["msg"] ?? " ";
+//$message = $_GET["msg"] ?? " ";
 ?>
 <!doctype html>
 <html lang="en">
@@ -13,6 +13,7 @@ $message = $_GET["msg"] ?? " ";
 <body>
 
 <p><?=$message?></p>
+<a href="index.php">vai indietro</a>
 
 </body>
 </html>
