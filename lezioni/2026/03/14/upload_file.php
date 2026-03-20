@@ -1,5 +1,5 @@
 <?php
-$allowed = ["jpg", "png", "pdf", "php"];
+$allowed = ["jpg", "png", "pdf"];
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if ($_FILES["documento"]["error"] === UPLOAD_ERR_OK) {
@@ -41,8 +41,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         exit();
     } else {
         http_response_code(500);
-        $msg = "file troppo grande";
+        $msg = "errore durante il caricamento del file";
         include "message.php";
         exit();
     }
+} else {
+    http_response_code(405);
+    $msg = "metodo non consentito";
+    include "message.php";
+    exit();
 }
