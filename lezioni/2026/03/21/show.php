@@ -1,5 +1,5 @@
 <?php
-$user = $_COOKIE["user"];
+$user = $_COOKIE["user"] ?? "";
 ?>
 <!doctype html>
 <html lang="en">
@@ -13,6 +13,7 @@ $user = $_COOKIE["user"];
 <body>
 
 <p>Questa è la pagina show</p>
+<p>Ciao <?= $user ?></p>
 <a href="index.php">Vai a index</a>
 </body>
 </html>

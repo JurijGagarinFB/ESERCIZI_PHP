@@ -2,7 +2,7 @@
 if (isset($_POST["nome"])) {
     setcookie(
             "user", /*nome del cookie*/
-            $_POST("nome"), /* valore del cookie */
+            $_POST["nome"], /* valore del cookie */
             [
                     "expires" => time() + 36000,
                     "path" => "/",
@@ -13,7 +13,7 @@ if (isset($_POST["nome"])) {
     );
     $user = $_POST["nome"];
 } else {
-    $user = $_COOKIE["user"];
+    $user = $_COOKIE["nome"];
 }
 ?>
 <!doctype html>
@@ -28,9 +28,7 @@ if (isset($_POST["nome"])) {
 <body>
 
 <p>Questa è la pagina action</p>
-
-<p>Ciao <?=$user?></p>
-
+<p>Ciao <?= $user ?></p>
 <a href="show.php">Vai a show</a>
 </body>
 </html>
