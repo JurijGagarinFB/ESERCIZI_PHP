@@ -17,7 +17,11 @@ $dati = [
     "eta" => $eta,
     "sesso" => $sesso,
     "nazionalita" => $nazionalita
-]
+];
+
+$str = implode("|", $dati) . "\n";
+file_put_contents("dati.txt", $str, FILE_APPEND);
+$righe = file("dati.txt");
 
 ?>
 <!doctype html>
@@ -37,17 +41,16 @@ $dati = [
             <th><?= $dato ?></th>
         <?php endforeach; ?>
     </tr>
-    <tr>
-
-        <?php foreach ($dati as $dato): ?>
-            <th><?php if (is_array($dato)) {
-                    echo implode(",", $dato);
-                } else {
-                    echo $dato;
-                } ?>
-            </th>
-        <?php endforeach; ?>
-    </tr>
+    <?php foreach ($righe as $dato): ?>
+        <tr>
+            <?php $colonne = explode("|", $dato) ?>
+            <?php foreach ($colonne as $colonna): ?>
+                <th>
+                    <?= $colonna ?>
+                </th>
+            <?php endforeach; ?>
+        </tr>
+    <?php endforeach; ?>
 </table>
 </body>
 </html>
