@@ -1,6 +1,6 @@
 <?php
 $dati = [
-        "Italia", "Albania", "Cina"
+    "Italia", "Albania", "Cina"
 ];
 ?>
 
@@ -31,8 +31,8 @@ $dati = [
 
     <label for="nazionalita">Nazionalità:</label>
     <select name="nazionalita[]" id="nazionalita[]" multiple>
-        <?php foreach ($dati as $dato):?>
-        <option value="<?= $dato?>"> <?=$dato?> </option>
+        <?php foreach ($dati as $dato): ?>
+            <option value="<?= $dato ?>"> <?= $dato ?> </option>
         <?php endforeach ?>
     </select> <br>
 
