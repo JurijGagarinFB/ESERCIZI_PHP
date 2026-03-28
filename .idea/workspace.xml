@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd6f7a5f-3988-4715-a596-f8a3e504548d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ProgettoFastRoute/FastRoute.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/ProgettoFastRoute/FastRoute.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91328907-d74c-4811-ab55-ba6e78bd62a2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/91328907-d74c-4811-ab55-ba6e78bd62a2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lezioni/2026/03/28/dashboard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lezioni/2026/03/28/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lezioni/2026/03/28/index2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lezioni/2026/03/28/logout.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +22,7 @@
     <execution />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="145" />
+    <option name="cachedIndexableFilesCount" value="153" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -50,10 +56,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/Francesco_Bazaj/Documenti/ESERCIZI_PHP/lezioni/2026/03/21",
+    "last_opened_file_path": "/home/Francesco_Bazaj/Documenti/ESERCIZI_PHP/lezioni/2026/03/28/session",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,8 +91,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PS-253.32098.40" />
-        <option value="bundled-php-predefined-a98d8de5180a-0e0d91225499-com.jetbrains.php.sharedIndexes-PS-253.32098.40" />
+        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-PS-261.22158.283" />
+        <option value="bundled-php-predefined-a98d8de5180a-a9a4ea3ee0f4-com.jetbrains.php.sharedIndexes-PS-261.22158.283" />
       </set>
     </attachedChunks>
   </component>
@@ -118,6 +125,8 @@
       <workItem from="1773480538455" duration="542000" />
       <workItem from="1773482075578" duration="21000" />
       <workItem from="1774085771962" duration="25000" />
+      <workItem from="1774691662761" duration="24000" />
+      <workItem from="1774691743274" duration="84000" />
     </task>
     <servers />
   </component>
