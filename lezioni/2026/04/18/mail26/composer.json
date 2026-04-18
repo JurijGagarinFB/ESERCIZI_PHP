@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/mail26",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Francesco_Bazaj",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^7.0"
+  }
+}
