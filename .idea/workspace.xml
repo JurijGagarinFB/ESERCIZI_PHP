@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd6f7a5f-3988-4715-a596-f8a3e504548d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/CYBERSECURITY.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/cambiopwd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/messaggi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/myStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/process_cambiopwd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/process_cerc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/process_login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/process_register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/save_comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lezioni/2026/05/15/webcybesec26/tuoMessaggio.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lezioni/2026/05/08/MVC/MVC.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/mvc26/MVC.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc26/MVC.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/mvc26/MVC.drawio" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +76,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/Francesco_Bazaj/Documenti/ESERCIZI_PHP/mvc26",
+    "last_opened_file_path": "/home/Francesco_Bazaj/Documenti/ESERCIZI_PHP/lezioni/2026/05/15/webcybesec26",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,6 +94,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lezioni/2026/05/15" />
       <recent name="$PROJECT_DIR$/ProgettoFastRoute2" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ProgettoCampionatoAutomobilitstico/Configuration" />
@@ -129,6 +151,7 @@
       <workItem from="1776504157075" duration="29000" />
       <workItem from="1778236614480" duration="2629000" />
       <workItem from="1778316929523" duration="791000" />
+      <workItem from="1778839481961" duration="2367000" />
     </task>
     <servers />
   </component>
