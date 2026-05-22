@@ -1,6 +1,6 @@
 <?php
 $title="messaggi";
-include ("header.php");
+include("header.php");
 try {
     $pdo = new PDO(
         "mysql:host=192.168.60.144;dbname=francesco_bazaj_cyber;charset=utf8mb4",
@@ -33,4 +33,4 @@ foreach ($comments as $comment) {
     echo "</small>";
     echo "<hr>";
 }
-include ("footer.php");
+include("footer.php");

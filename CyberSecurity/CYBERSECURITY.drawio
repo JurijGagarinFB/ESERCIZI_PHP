@@ -1,0 +1,115 @@
+<mxfile host="drawio-plugin" modified="2026-05-22T10:09:22.104Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" etag="V-yQJ3H-_si2_3xJBC95" version="22.1.22" type="embed">
+  <diagram id="23iRSUPoRavnBvh4doch" name="Page-1">
+    <mxGraphModel dx="1128" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;WEB Security&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Validazione e Sanificazione&lt;br&gt;XSS (Cross-Site-scripting)&lt;br&gt;CSRF(Cross-Site Request Forgery)&lt;br&gt;Cookie(Https, Http-only, Secure, SameSite)&lt;br&gt;SQL Injection&lt;/font&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="260" y="10" width="307" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Validazione Sanificazione dei dati&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="220" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 16px;&quot;&gt;Validare un dato&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Controllare che sia nel formato giusto&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;es: è una mail valida?&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="165" y="280" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 16px;&quot;&gt;Sanificare un dato&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&quot;Pulirlo&quot; dai caratteri pericolosi&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;es: &quot; ? &amp;gt; &amp;lt; &amp;lt;script&amp;gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="461" y="275" width="202" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#0066cc&quot;&gt;filter_input() / filter_var&lt;/font&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;per i dati in input(form) : san. e val.&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#0066cc&quot;&gt;htmlspecialchars()&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/font&gt;per i dati in output (HTML): san.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="215" y="380" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;h1&gt;XSS Cross Site Scripting&lt;/h1&gt;&lt;p&gt;Elaborazione lato server di dati forniti dall&#39;utente (esempio form).&lt;br&gt;Attaccante potrebbe&lt;font color=&quot;#0066cc&quot;&gt; iniettare codice eseguibile &lt;/font&gt;(esempio JavaScript) che può essere eseguito e interpretato dal browser.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="49" y="540" width="730" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="REFLECTED" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="165" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="STORED" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="545" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Non coinvolge il database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="165" y="720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Coinvolge il database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="545" y="720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;h1&gt;CSRF Cross-site Request Forgery&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#007fff&quot;&gt;Aggressore induce gli utenti a eseguire azioni &lt;/font&gt;che non intendono eseguire.&lt;br&gt;Consente all&#39;aggressore di aggirare la politiche di sicurezza e far in modo che diversi siti web interagiscano tra loro.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="49" y="850" width="730" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="setcookie(&quot;username&quot;,&quot;pippo&quot;,[&lt;br&gt;&quot;expires&quot; =&amp;gt; time()+3600,&lt;br&gt;&quot;path&quot; =&amp;gt; &quot;/&quot;,&lt;br&gt;&quot;domain&quot; =&amp;gt; &quot;&quot;,&lt;br&gt;&quot;secure&quot; =&amp;gt; true,&lt;br&gt;&quot;httponly&quot; =&amp;gt; true,&lt;br&gt;&quot;samesite&quot; =&amp;gt; &quot;None&quot;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="24" y="960" width="196" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="168" y="1054" as="sourcePoint" />
+            <mxPoint x="400" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="1069" as="sourcePoint" />
+            <mxPoint x="392" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="181" y="1084" as="sourcePoint" />
+            <mxPoint x="410" y="1075" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="Invia cookie solo su https" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="401" y="980" width="159" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="Javascript non può leggere i cookie (protezione XSS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="401" y="1020" width="319" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="&quot;Strict&quot;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;/&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;Lax&quot;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;/&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;None&quot;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(protezione verso CSRF)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="401" y="1060" width="379" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="first-party context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="1100" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="third-party context con navigazioni di tipo &quot;top-level&quot; (GET)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="414" y="1150" width="199" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="third-party context (però &lt;i&gt;secure&lt;/i&gt; deve essere true)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="580" y="1090" width="199" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429" y="1080" as="sourcePoint" />
+            <mxPoint x="404.5" y="1110.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="514" y="1083" as="sourcePoint" />
+            <mxPoint x="414.5" y="1120.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="594" y="1082" as="sourcePoint" />
+            <mxPoint x="609" y="1102" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SQL INJECTION&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;&lt;br&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="224" y="1290" width="380" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="$query = &lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(255, 123, 66);&quot;&gt;&quot;&lt;/font&gt;UPDATE Users SET password = &lt;span style=&quot;background-color: rgb(0, 127, 255);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&#39;&lt;/font&gt;&lt;/span&gt;$password&lt;span style=&quot;background-color: rgb(0, 127, 255);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&#39;&lt;/font&gt;&lt;/span&gt; WHERE username = &lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(64, 58, 5);&quot;&gt;&#39;&lt;/font&gt;$username&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(64, 58, 5);&quot;&gt;&#39;&lt;/font&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(255, 123, 66);&quot;&gt;&quot;&lt;/font&gt;;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="153" y="1800" width="522" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="Form B:&lt;br&gt;username: user1&lt;span style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&#39;&lt;/font&gt;&lt;/span&gt; OR &lt;span style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&#39;&lt;/font&gt;&lt;/span&gt; 1=1&lt;br&gt;password: xxx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="341" y="1850" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="$query = &lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(255, 123, 66);&quot;&gt;&quot;&lt;/font&gt;UPDATE Users SET password = &lt;font style=&quot;background-color: rgb(0, 127, 255);&quot; color=&quot;#ffffff&quot;&gt;&#39;&lt;/font&gt;&lt;font style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;XXX&lt;/font&gt;&lt;span style=&quot;background-color: rgb(0, 127, 255);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&#39;&lt;/font&gt;&lt;/span&gt; WHERE username = &lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(64, 58, 5);&quot;&gt;&#39;&lt;/font&gt;&lt;font style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;user1&lt;/font&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;&#39;&lt;/font&gt;&lt;font style=&quot;background-color: rgb(251, 251, 251);&quot;&gt; OR &lt;/font&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;&#39;&lt;/font&gt;&lt;font style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;1=1&lt;/font&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(64, 58, 5);&quot;&gt;&#39;&lt;/font&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(255, 123, 66);&quot;&gt;&quot;&lt;/font&gt;;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="153" y="1900" width="522" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="$query = &lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(255, 123, 66);&quot;&gt;&quot;&lt;/font&gt;SELECT * FROM Users WHERE username = &lt;font style=&quot;background-color: rgb(0, 127, 255);&quot; color=&quot;#ffffff&quot;&gt;&#39;&lt;/font&gt;&lt;font style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;admin&lt;/font&gt;&lt;span style=&quot;background-color: rgb(0, 127, 255);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&#39;&lt;/font&gt;&lt;/span&gt;&amp;nbsp;AND password = &lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(64, 58, 5);&quot;&gt;&#39;&lt;/font&gt;&lt;font style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;x&lt;/font&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;&#39;&lt;/font&gt;&lt;font style=&quot;background-color: rgb(251, 251, 251);&quot;&gt; OR &lt;/font&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;&#39;&lt;/font&gt;&lt;font style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;1=1&lt;/font&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(64, 58, 5);&quot;&gt;&#39;&lt;/font&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;background-color: rgb(255, 123, 66);&quot;&gt;&quot;&lt;/font&gt;;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1540" width="522" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

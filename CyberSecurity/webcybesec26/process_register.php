@@ -1,6 +1,6 @@
 <?php
 $title = "Registrazione";
-require  "header.php";
+require "header.php";
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     $content='Richiesta non valida';
     exit;

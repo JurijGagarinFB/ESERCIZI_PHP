@@ -19,4 +19,4 @@ require "header.php";
     <br><br>
     <button type="submit">Register</button>
 </form>
-<?php require "footer.php"?>
+<?php require "footer.php" ?>

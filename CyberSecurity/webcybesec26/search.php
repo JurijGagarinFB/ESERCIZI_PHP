@@ -1,6 +1,6 @@
 <?php
 $title = "Cerca";
-require  "header.php";
+require "header.php";
 ?>
 <!-- search_form.html -->
 <form action="process_cerc.php" method="GET">
@@ -9,4 +9,4 @@ require  "header.php";
   <input type="text" name="q" placeholder="Search...">
   <button type="submit">Search</button>
 </form>
-<?php require "footer.php"?>
+<?php require "footer.php" ?>

@@ -1,7 +1,7 @@
 
 <?php
 $title = "Process CambioPwd";
-require  "header.php";
+require "header.php";
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     $content='Invalid request';
     require 'content.php';
@@ -44,7 +44,7 @@ if (strlen($newPassword) < 8) {
 // Recupero password hash dal database
 $stmt = $pdo->prepare("
     SELECT pwd
-    FROM users
+    FROM Users
     WHERE userId = :id
 ");
 
@@ -64,7 +64,7 @@ $newHash = password_hash($newPassword, PASSWORD_DEFAULT);
 
 // Update password
 $update = $pdo->prepare("
-    UPDATE users
+    UPDATE Users
     SET pwd = :password
     WHERE userId = :id
 ");

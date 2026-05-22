@@ -1,6 +1,6 @@
 <?php
 $title = "Process Login";
-require  "header.php";
+require "header.php";
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     $content='Invalid request';
     require 'content.php';

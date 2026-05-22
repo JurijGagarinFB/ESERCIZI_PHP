@@ -1,6 +1,6 @@
 <?php
 $title = "Login";
-require  "header.php";
+require "header.php";
 ?>
 <h1>Login</h1>
     <form action="process_login.php" method="POST">
@@ -18,4 +18,4 @@ require  "header.php";
         <br>
         <button type="submit">Login</button>
     </form>
-<?php require "footer.php"?>
+<?php require "footer.php" ?>

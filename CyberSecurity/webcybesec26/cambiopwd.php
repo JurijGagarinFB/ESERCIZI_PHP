@@ -1,6 +1,6 @@
 <?php
 $title = "CambioPwd";
-require  "header.php";
+require "header.php";
 ?>
 <form action="process_cambiopwd.php" method="POST">
     <br><br>
@@ -14,4 +14,4 @@ require  "header.php";
     <br><br>
     <button type="submit">Cambia password</button>
 </form>
-<?php require "footer.php"?>
+<?php require "footer.php" ?>
