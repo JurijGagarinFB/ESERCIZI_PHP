@@ -2,7 +2,7 @@
 return [
     'smtp' => [
         'host' => 'smtp.gmail.com',
-        'username' => 'diego.renesto@iisviolamarchesini.edu.it',
+        'username' => 'francesco.bazaj@iisviolamarchesini.edu.it',
         'password' => '', //***
         'port' => 587,
         'encryption' => 'tls'

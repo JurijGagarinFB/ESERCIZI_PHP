@@ -3,7 +3,7 @@
 
 <footer class="footer">
     <div class="container">
-        <p>FastRoute - <a href="https://github.com/diegorenesto" style="color: white">Renesto Diego</a></p>
+        <p>FastRoute - <a href="https://github.com/jurijgagarinFB" style="color: white">Francesco Bazaj</a></p>
     </div>
 </footer>
 </body>

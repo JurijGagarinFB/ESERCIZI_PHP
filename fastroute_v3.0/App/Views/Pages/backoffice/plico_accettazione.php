@@ -8,7 +8,7 @@
         <label for="id_cliente">Cliente mittente</label>
         <select id="id_cliente" name="id_cliente" required>
             <option value="">Seleziona cliente</option>
-            <?php foreach ($clienti as $cliente): ?> <!--da undefined anche se lo prende (PlicoController accettazione():require once -->
+            <?php foreach ($clienti as $cliente): ?>
                 <option value="<?= e($cliente->id_cliente) ?>">
                     <?= e($cliente->cognome . ' ' . $cliente->nome) ?>
                 </option>
