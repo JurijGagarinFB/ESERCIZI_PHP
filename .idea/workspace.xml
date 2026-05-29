@@ -5,14 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd6f7a5f-3988-4715-a596-f8a3e504548d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/.idea/mvc26.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Controller/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Controller/ReviewController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Controller/ServiceController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Controller/TabletController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Core/DBconn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Model/Review.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Model/Tablet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Views/Layout/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Views/Layout/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Views/Pages/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Views/Pages/formInsertReview.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Views/Pages/formInsertTablet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Views/Pages/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Views/Pages/service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Views/Pages/showAllReviews.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/App/Views/Pages/showAllTablet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/Config/appConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/Config/databaseConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/Config/requireconfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/Functions/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/Log/database_logfile.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/MVC.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/Public/Style/mystyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/Router/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastRoute_3.0/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/lezioni/2026/04/18/mail26/composer.json" />
+      <option value="$PROJECT_DIR$/fastroute_v3.0/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/API/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="EmbeddingIndexingInfo">
@@ -92,7 +129,23 @@
       <entry key="W1" value="5.999924466093981" />
     </decayedShown>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
+    <include_path>
+      <path value="$PROJECT_DIR$/API/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/API/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/API/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/API/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/API/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/API/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/API/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/API/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/API/vendor/composer" />
+      <path value="$PROJECT_DIR$/lezioni/2026/04/18/mail26/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/lezioni/2026/04/18/mail26/vendor/composer" />
+      <path value="$PROJECT_DIR$/fastroute_v3.0/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/fastroute_v3.0/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -113,7 +166,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/Francesco_Bazaj/Documenti/ESERCIZI_PHP/API",
+    "last_opened_file_path": "/home/Francesco_Bazaj/Documenti/ESERCIZI_PHP/fastroute_v3.0",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -195,6 +248,7 @@
       <workItem from="1779448048467" duration="13000" />
       <workItem from="1779522651452" duration="128000" />
       <workItem from="1779525111033" duration="1642000" />
+      <workItem from="1780050288734" duration="14000" />
     </task>
     <servers />
   </component>

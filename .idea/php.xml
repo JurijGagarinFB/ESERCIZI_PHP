@@ -10,6 +10,23 @@
     <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/API/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/API/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/API/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/API/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/API/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/API/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/API/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/API/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/API/vendor/composer" />
+      <path value="$PROJECT_DIR$/lezioni/2026/04/18/mail26/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/lezioni/2026/04/18/mail26/vendor/composer" />
+      <path value="$PROJECT_DIR$/fastroute_v3.0/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/fastroute_v3.0/vendor/composer" />
+    </include_path>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
     <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
